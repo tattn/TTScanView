@@ -8,6 +8,8 @@ A library which shows/reads QR code and barcode easily
 <a target="_blank" href="https://raw.githubusercontent.com/tattn/TTScanView/assets/ttscanview.gif">
 <img width="30%" height="30%" alt="TTToast" src="https://raw.githubusercontent.com/tattn/TTScanView/assets/ttscanview.gif"></a>
 
+When running on real iPhone, the upper example program shows a camera view instead of black screen.
+
 ## Installation
 
 ### CocoaPods
