@@ -20,10 +20,7 @@ pod 'TTScanView'
 ```
 
 ### Manually
-Add manually:
-
-1. Add TTScanView.swift to your project.
-2. Link QuartzCore.
+Add TTScanView.swift to your project.
 
 ## Examples
 
