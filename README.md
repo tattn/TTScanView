@@ -4,7 +4,8 @@
 ![License](https://cocoapod-badges.herokuapp.com/l/TTScanView/badge.png)
 
 A simple QR code or barcode reader.
-And the reader can change a viewer.
+
+The reader can change into a viewer.
 
 <a target="_blank" href="https://raw.githubusercontent.com/tattn/TTScanView/assets/ttscanview.gif">
 <img width="30%" height="30%" alt="TTToast" src="https://raw.githubusercontent.com/tattn/TTScanView/assets/ttscanview.gif"></a>
