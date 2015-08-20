@@ -3,7 +3,8 @@
 [![CocoaPods Status](https://cocoapod-badges.herokuapp.com/v/TTScanView/badge.png)](https://cocoapods.org/?q=ttscanview)
 ![License](https://cocoapod-badges.herokuapp.com/l/TTScanView/badge.png)
 
-A library which shows/reads QR code and barcode easily
+A simple QR code or barcode reader.
+And the reader can change a viewer.
 
 <a target="_blank" href="https://raw.githubusercontent.com/tattn/TTScanView/assets/ttscanview.gif">
 <img width="30%" height="30%" alt="TTToast" src="https://raw.githubusercontent.com/tattn/TTScanView/assets/ttscanview.gif"></a>
@@ -38,7 +39,10 @@ scanView.showCamera(ScanView.CameraType.QRcode)
 scanView.showCamera(ScanView.CameraType.Barcode)
 
 // set delegate
-scanView!.delegate = self // ScanDelegate
+scanView!.delegate = self
+
+
+// MARK: -  ScanDelegate
 
 // finished reading QR code / barcode
 func detectedCode(code: String) {
